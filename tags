@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+CC	makefile	/^CC=gcc$/;"	m
+EXEC	makefile	/^EXEC=app$/;"	m
+Num	Num.cpp	/^Num::Num(){$/;"	f	class:Num	signature:()
+Num	Num.h	/^		Num();$/;"	p	class:Num	access:public	signature:()
+Num	Num.h	/^class Num{$/;"	c
+Num::Num	Num.cpp	/^Num::Num(){$/;"	f	class:Num	signature:()
+Num::Num	Num.h	/^		Num();$/;"	p	class:Num	access:public	signature:()
+Num::size	Num.h	/^		 const int size = 100;$/;"	m	class:Num	access:private
+Num::~Num	Num.cpp	/^Num::~Num(){$/;"	f	class:Num	signature:()
+Num::~Num	Num.h	/^		~Num();$/;"	p	class:Num	access:public	signature:()
+OBJS	makefile	/^OBJS=$(SRCS:.c=.o)$/;"	m
+SRCS	makefile	/^SRCS=main.c\\$/;"	m
+main	main.cpp	/^int main() {$/;"	f	signature:()
+size	Num.h	/^		 const int size = 100;$/;"	m	class:Num	access:private
+~Num	Num.cpp	/^Num::~Num(){$/;"	f	class:Num	signature:()
+~Num	Num.h	/^		~Num();$/;"	p	class:Num	access:public	signature:()
